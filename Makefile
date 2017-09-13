@@ -1,9 +1,9 @@
 # makefile for pack library for Lua
 
 # change these to reflect your Lua installation
-LUA= /tmp/lhf/lua-5.1.2
-LUAINC= $(LUA)/src
-LUALIB= $(LUA)/src
+LUA= /usr/local/openresty/luajit
+LUAINC= $(LUA)/include/luajit-2.1
+LUALIB= $(LUA)/lib/
 LUABIN= $(LUA)/src
 
 # probably no need to change anything below here
