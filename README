@@ -34,7 +34,34 @@ Please send comments, suggestions, and bug reports to lhf@tecgraf.puc-rio.br .
 
 -------------------------------------------------------------------------------
 
+
+
 pack library:
  pack(f,...) 		 unpack(s,f,[init]) 
 
 -------------------------------------------------------------------------------
+
+```
+* 'z': zero-terminated string
+* 'p': string preceded by length byte
+* 'P': string preceded by length word
+* 'a': string preceded by length size_t
+* 'A': string
+* 'f': float
+* 'd': double
+* 'n': Lua number
+* 'c': char
+* 'b': byte = unsigned char
+* 'h': short
+* 'H': unsigned short
+* 'i': int
+* 'I': unsigned int
+* 'l': long
+* 'L': unsigned long
+* 'x': unsigned char
+* '<': little endian
+* '>': big endian
+* '=': native endian
+* '{': unbreakable little endian
+* '}': unbreakable big endian
+```
